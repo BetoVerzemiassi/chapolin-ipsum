@@ -1,0 +1,137 @@
+body{
+	background-color: #000;
+}
+
+.container{
+	width:1024px;
+	margin: 0px auto;
+	background-image: url(../img/chapolin.png);
+	background-repeat: no-repeat;
+} 
+
+.principal{
+	width:1024px;
+	margin: auto;
+}
+
+.conteudo_ipsum{
+	position: relative;
+	float: right;
+	margin-right: 65px;
+	width: 460px;
+	margin-top:200px;
+}
+
+.conteudo_ipsum p{
+	font-family: cursive;
+    font-size: 20px;    
+    font-style: oblique;
+	font-weight: bold;
+	color: #ef0808;
+}
+
+.img_fnd{
+	border-bottom:3px solid #ee642c;
+}
+
+.botoes_menu{
+	margin-top:20px;
+}
+
+.quantidade-frases{
+	list-style: none;
+	display: inline-block;
+	margin: auto 8px;
+	width:40px;
+	height:40px;
+	background:#ef0808;
+	color:#fef200;	
+	padding: 4px 13px;
+	font-size: 25px;
+	font-weight: normal;
+	cursor: pointer;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	border-radius: 50%;
+}
+
+.quantidade-frases:hover{
+	background:#fef200;
+	color:#ef0808;
+	border:3px solid #ef0808;
+	padding: 1px 10px;
+}
+
+.chapolin{
+	width: 450px;
+	height: 222px;
+	overflow-y: scroll;
+	resize: none;
+	margin: 25px 0px 0px 0px;
+	padding: 20px 15px 20px 20px;
+	padding:20px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	font-size:14px;
+	border-radius: 5px;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+}
+
+.gerar_chapolin{
+	width:450px;
+	height:60px;
+	background:#ef0808;
+	color:#fef200;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	font-size: 19px;
+	margin-top:10px;
+	padding: 15px 0px 15px 120px;
+	-webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+	-moz-box-shadow:    2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+	box-shadow:         2px 2px 5px 0px rgba(50, 50, 50, 0.75);
+	cursor:pointer;
+}
+
+.gerar_chapolin:hover{
+	background: #fef200;
+	color: #ef0808;
+	border:3px solid #ef0808;
+}
+
+.easteregg{ 
+	color:#000 !important;
+}
+
+.easteregg:hover{
+	text-decoration: none;
+	color:#000 !important;
+}
+
+.balao_chapolin_gerado{
+	display:none;
+	width:237px;
+	height:200px;
+	background-image: url(../img/chaves-ipsum-gerado.png);
+	position: absolute;
+	top: 0px;
+	right: 740px;
+}
+.ola-internautas{
+	display:none;
+	width:246px;
+	height:200px;
+	background-image: url(../img/isso-isso-isso.png);
+	position:absolute;
+	bottom: 572px;
+	right: 454px;
+}
+.chaves-ipsum-logo {
+	width: 460px;
+	height: 210px;
+	margin-top: -190px;
+	margin-bottom: 10px;
+}
