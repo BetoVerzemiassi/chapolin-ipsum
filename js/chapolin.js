@@ -21,7 +21,7 @@ $(document).ready(function() {
 		for(i = 0; i < quantidade; i++) {
 			frases +="\t"+geraFraseAleatoria()+"\n";
 		}
-		$('.chapolin').val(frases);
+		$('.texto-chapolin').val(frases);
 		copyToClipboard($('.chapolin').val());
 	});
 

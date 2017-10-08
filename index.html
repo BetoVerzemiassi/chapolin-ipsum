@@ -1,42 +1,46 @@
 <!DOCTYPE html>
-<html lang="pt">
+<html lang="en">
 <head>
-      <meta charset="utf-8">
-      <meta http-equiv="X-UA-Compatible" content="IE=edge">
-      <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
-	<link rel="icon" href="img/favicon.ico" type="image/x-icon">
-      <link href="css/bootstrap.min.css" rel="stylesheet">
-      <link href="css/chapolin.css" rel="stylesheet">
-      <title>Chapolin Ipsum</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link href="css/bootstrap.min.css" rel="stylesheet">    
+    <link href="css/chapolin.css" rel="stylesheet">
+    <title>Chapolin Ipsum</title>
 </head>
 <body>
-      <div class="container">
-            <div class="principal">
-                  <div class="conteudo_ipsum">
-                        <div class="chaves-ipsum-logo"></div>
-                        <p>Chapolin Ipsum foi criado para você que desenvolve e precisa de textos para inserir nos seus códigos</p>
-                        <p>Homenagem feita pra o personagem, com suas melhores frases!</p>
-                        <p>Escolha quantos parágrafos você precisa:</p>
-                        <ul class="botoes_menu">
-                              <li class="quantidade-frases" data-quantidade="1">1</li>
-                              <li class="quantidade-frases" data-quantidade="2">2</li>
-                              <li class="quantidade-frases" data-quantidade="3">3</li>
-                              <li class="quantidade-frases" data-quantidade="4">4</li>
-                              <li class="quantidade-frases" data-quantidade="5">5</li>
-                              <li class="quantidade-frases" data-quantidade="6">6</li>
-                              <li class="quantidade-frases" data-quantidade="7">7</li>
-                              <li class="quantidade-frases" data-quantidade="8">8</li>
-                        </ul>
-                        <textarea class="chapolin"></textarea>
-                        <div class="gerar_chapolin">Gerar o Chapolin Ipsum!</div>
-                        <div class="balao_chapolin_gerado"></div>
-                  </div>
+    <nav>       
+        <ul>
+            <li class="menu">Sobre</li>
+            <li class="menu">Git</li>
+        </ul>
+    </nav>   
+    <div class="container">
+        <div class="principal">
+            <div class="coracao"></div>
+            <div class="container-ipsum">
+                <p>Chapolin Ipsum foi criado para você que desenvolve e precisa de textos para inserir nos seus códigos</p>
+                <p>Homenagem feita pra o personagem, com suas melhores frases!</p>
             </div>
-      </div>
-
-      <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
-      <script src="js/bootstrap.min.js"></script>
-      <script src="js/jquery.zclip.min.js"></script>
-      <script src="js/chapolin.js"></script>
+        </div>
+    </div>
+    <div class="area-frases">
+        <ul class="botoes_menu">
+            <li class="quantidade-frases" data-quantidade="1">1</li>
+            <li class="quantidade-frases" data-quantidade="2">2</li>
+            <li class="quantidade-frases" data-quantidade="3">3</li>
+            <li class="quantidade-frases" data-quantidade="4">4</li>
+            <li class="quantidade-frases" data-quantidade="5">5</li>
+            <li class="quantidade-frases" data-quantidade="6">6</li>
+            <li class="quantidade-frases" data-quantidade="7">7</li>
+            <li class="quantidade-frases" data-quantidade="8">8</li>
+            <textarea class="texto-chapolin"></textarea>
+            <div class="gerar_chapolin">Gerar o Chapolin Ipsum!</div>
+        </ul>
+        <div class="chapolin"></div>        
+    </div> 
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>    
+    <script src="js/chapolin.js"></script>
 </body>
 </html>
