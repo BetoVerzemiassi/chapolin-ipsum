@@ -1,6 +1,35 @@
-body{    
+@media (min-width:2319px){
+    body{
+        background-image: url(../img/personagens-maiores-resolucoes.jpg) !important;
+        background-repeat: no-repeat; 
+    }
+    .container-chapolin{
+        background-image: url(../img/chapolin-telas-maiores.png) !important;
+    }
+}
+
+@keyframes pulse_animation {
+	0% { transform: scale(1.08); }
+	30% { transform: scale(1); }
+	40% { transform: scale(1.08); }
+	50% { transform: scale(1); }
+	60% { transform: scale(1.08); }
+	70% { transform: scale(1); }
+	80% { transform: scale(1); }
+	100% { transform: scale(1.08); }
+}
+
+.pulse{
+	animation-name: pulse_animation;
+	animation-duration: 1s;
+	transform-origin:70% 70%;
+	animation-iteration-count: infinite;
+	animation-timing-function: linear;
+}
+
+body{     
     background-image: url(../img/personagens.jpg);
-    background-repeat: no-repeat;  
+    background-repeat: no-repeat; 
 }
 
 .navbar{
@@ -42,10 +71,11 @@ body{
 	font-family: cursive;
 }
 
-.container{
-	width:1024px;
-	margin: 40px auto;		
-} 
+/* .container{
+    width:100%;
+    background-image: url(../img/personagens.jpg);
+    background-repeat: no-repeat;   
+}   */
 
 .coracao{
     background-image: url(../img/chapolin-logo.png);
@@ -63,12 +93,14 @@ body{
     font-size: 16px;
     padding: 13px;
     border-radius: 10px;
+    margin: 0 30px 60px 0;
 }
 
 .botoes_menu{
-    margin-top:20px;
-    float: right;
-    width: 50%;   
+    margin-top: 6px;    
+    position: relative;
+    left: 50%;
+    width: 500px;
 }
 
 .quantidade-frases{
@@ -103,12 +135,14 @@ body{
 	padding: 1px 10px;
 }
 
-.texto-chapolin {    
+.texto-chapolin { 
+    position: absolute;
+    left: 52%;    
     width: 450px;
     height: 155px;
     overflow-y: scroll;
     resize: none;
-    margin: 25px 0px 0px 0px;
+    margin: 10px 0px 0px 6px;
     padding: 20px 15px 20px 20px;	
     padding: 20px;
     -webkit-border-radius: 5px;
@@ -121,6 +155,8 @@ body{
 }
 
 .gerar_chapolin{
+    position: absolute;
+    left: 52%;     
 	width: 450px;
     height: 60px;
     background: #ef0808;
@@ -130,7 +166,7 @@ body{
     -moz-border-radius: 5px;
     border-radius: 5px;
     font-size: 19px;
-    margin-top: 6px;
+    margin: 180px 0px 0px 6px;
     padding: 15px 0px 0px 120px;
     -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
@@ -138,8 +174,9 @@ body{
     cursor: pointer;
 }
 
-.chapolin {
+.container-chapolin{
     background-image: url(../img/chapolin_.png);
+    background-repeat: no-repeat;
     width: 100%;
     height: 335px;    
 }
