@@ -1,4 +1,37 @@
-@keyframes pulse_animation {
+@keyframes pulse_pulsando{
+	0% { transform: scale(1.08); }
+	30% { transform: scale(1); }
+	40% { transform: scale(1.08); }
+	50% { transform: scale(1); }
+	60% { transform: scale(1.08); }
+	70% { transform: scale(1); }
+	80% { transform: scale(1); }
+	100% { transform: scale(1.08); }
+}
+
+@-moz-keyframes pulsando{
+	0% { transform: scale(1.08); }
+	30% { transform: scale(1); }
+	40% { transform: scale(1.08); }
+	50% { transform: scale(1); }
+	60% { transform: scale(1.08); }
+	70% { transform: scale(1); }
+	80% { transform: scale(1); }
+	100% { transform: scale(1.08); }
+}
+
+@-webkit-keyframes pulsando{
+	0% { transform: scale(1.08); }
+	30% { transform: scale(1); }
+	40% { transform: scale(1.08); }
+	50% { transform: scale(1); }
+	60% { transform: scale(1.08); }
+	70% { transform: scale(1); }
+	80% { transform: scale(1); }
+	100% { transform: scale(1.08); }
+}
+
+@-o-keyframes pulsando{
 	0% { transform: scale(1.08); }
 	30% { transform: scale(1); }
 	40% { transform: scale(1.08); }
@@ -10,9 +43,8 @@
 }
 
 .pulse{
-	animation-name: pulse_animation;
-	animation-duration: 1s;
-	transform-origin:70% 70%;
+	animation-name: pulsando;
+	animation-duration: 3s;	
 	animation-iteration-count: infinite;
 	animation-timing-function: linear;
 }
@@ -21,6 +53,7 @@ body{
     background-image: url(../img/personagens.jpg);
     background-repeat: no-repeat; 
     background-size: 100% 64%;
+    overflow-x: hidden;
 }
 
 .navbar{
@@ -32,8 +65,7 @@ body{
 
 .logo{
 	float: left;
-    color: #fff;
-    background-color: #930202;
+    color: #fff;    
     padding: 5px;
 	margin-left: 20px;
 	font-weight: bold;
@@ -44,7 +76,7 @@ body{
 	color: #930202;
 	position: absolute;
     top: 14px;
-    left: 34px;
+    left: 35px;
 }
 
 .menu{
@@ -94,6 +126,12 @@ body{
     left: 52%;    
 }
 
+.botoes_menu p {
+    font-family: cursive;
+    color: #fff;
+    font-size: 24px;   
+}
+
 .quantidade-frases{
 	list-style: none;
 	display: inline-block;	
@@ -125,7 +163,7 @@ body{
     height: 155px;
     overflow-y: scroll;
     resize: none;
-    margin: 10px 0px 0px 6px;
+    margin: 1px 0 0 6px;
     padding: 20px 15px 20px 20px;	
     padding: 20px;
     -webkit-border-radius: 5px;
@@ -149,7 +187,7 @@ body{
     -moz-border-radius: 5px;
     border-radius: 5px;
     font-size: 19px;
-    margin: 180px 0px 0px 6px;
+    margin: 164px 0px 0px 6px;
     padding: 15px 0px 0px 120px;
     -webkit-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);
     -moz-box-shadow: 2px 2px 5px 0px rgba(50, 50, 50, 0.75);

@@ -9,6 +9,11 @@ $(document).ready(function() {
 	chapolin[5] = "Não poderei comemorar meu aniversário em setembro este ano. Por que? Porque nasci em março.";
 	chapolin[6] = "Ele rico, eu pobre. Ele era inquieto, eu tranquilo. Ele era preguiçoso, eu estudioso. Eu era Pacífico, ele Atlântico.";
 	chapolin[7] = "Não contavam com minha astúcia!";
+	chapolin[8] = "Ou você me entrega esse retrato às seis da tarde, ou às seis e cinco você vai estar mais morto que a múmia de Tutancamon.";
+	chapolin[9] = "Uma coisa eu digo, ou daqui saímos todos ou só eu. Quero dizer, ou saímos todos ou ninguém.";
+	chapolin[10] = "Para entender o francês necessito de três coisas: que falem devagar, em voz alta e em português.";
+	chapolin[11] = "Corram! Ele está vindo aí! Mulheres e Chapolins primeiros.";
+	chapolin[12] = "Já diz o ditado: é melhor uma mulher nova, bonita e rica, do que uma velha, feia e pobre.";
 
 	function geraFraseAleatoria(array){
 		var fraseAleatoria = chapolin[Math.floor(Math.random() * chapolin.length)];
