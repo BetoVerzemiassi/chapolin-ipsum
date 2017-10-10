@@ -17,4 +17,6 @@ Após visualizar muitos geradores de Lorem Ipsum, resolvi criar um homenagiando 
 
 **Autor:** Alberto Verzemiassi
 
+[Gerador Chapolin Ipsum](https://betoverzemiassi.github.io/chapolinipsum.github.io/)
+
 
